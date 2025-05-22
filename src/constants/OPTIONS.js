@@ -9,7 +9,7 @@ const { argv } = yargs(hideBin(process.argv));
  * This is the source domain that ghost is hosted on
  * @type {string}
  */
-const SOURCE_DOMAIN = (argv.sourceDomain || argv.domain || 'http://localhost:2368').replace(/\/?$/, '');
+const SOURCE_DOMAIN = (argv.sourceDomain || argv.domain || 'https://tech-bro.top').replace(/\/?$/, '');
 /**
  * This is the production domain that ghost will be hosted on, ie. your CDN or S3 bucket
  * @type {string}
